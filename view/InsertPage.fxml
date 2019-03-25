@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.ijse.pro.view.InsertPage"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ijse.pro.controller.InsertController">
+   <children>
+      <TextField fx:id="txtNic" layoutX="31.0" layoutY="167.0" />
+      <TextField fx:id="txtName" layoutX="417.0" layoutY="167.0" />
+      <Label layoutX="31.0" layoutY="137.0" text="NIC" />
+      <Label layoutX="417.0" layoutY="137.0" text="Name" />
+      <Label layoutX="286.0" layoutY="45.0" text="Insert Page" />
+      <Button fx:id="btnInsertSubmit" layoutX="274.0" layoutY="251.0" mnemonicParsing="false" text="Submit" />
+      <Button fx:id="btnBack" layoutX="514.0" layoutY="251.0" mnemonicParsing="false" text="Back" />
+   </children>
 </AnchorPane>
